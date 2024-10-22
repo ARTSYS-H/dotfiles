@@ -61,8 +61,8 @@ cp -r .config/nvim ~/.config/
 These dotfiles assume certain programs are installed. Here's a list of key tools:
 
 - `Git`
-- `Oh My Bash`
-- `Helix`
+- [Oh My Bash](https://github.com/ohmybash/oh-my-bash)
+- [Helix](https://github.com/helix-editor/helix)
 
 ## 📋 Customization
 
