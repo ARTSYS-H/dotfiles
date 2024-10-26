@@ -19,7 +19,7 @@ character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
 skip-levels = 1
 
 [editor.statusline]
-left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator"]
+left = ["mode", "spacer", "spinner", "file-name", "read-only-indicator", "file-modification-indicator"]
 right = ["diagnostics", "selections", "register", "position", "total-line-numbers", "file-type", "file-encoding"]
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
