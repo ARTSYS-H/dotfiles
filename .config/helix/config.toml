@@ -6,6 +6,8 @@ true-color = true
 color-modes = true
 # bufferline = "always"
 middle-click-paste = false
+# Minimum severity to show a diagnostic after the end of a line:
+end-of-line-diagnostics = "hint"
 
 [editor.soft-wrap]
 enable = true
@@ -33,3 +35,10 @@ hidden = false
 
 [editor.gutters.line-numbers]
 min-width = 1
+
+[editor.inline-diagnostics]
+# Minimum severity to show a diagnostic on the primary cursor's line.
+# Note that `cursor-line` diagnostics are hidden in insert mode.
+cursor-line = "warning"
+# Minimum severity to show a diagnostic on other lines:
+# other-lines = "error"
