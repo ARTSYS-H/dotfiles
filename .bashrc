@@ -5,7 +5,7 @@ case $- in
 esac
 
 # Path to your oh-my-bash installation.
-export OSH='/home/lug/.oh-my-bash'
+export OSH='/home/artsys/.oh-my-bash'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
@@ -114,7 +114,6 @@ plugins=(
 # Custom plugins may be added to ~/.oh-my-bash/custom/plugins/
 # Example format:
  if [ "$DISPLAY" ] || [ "$SSH" ]; then
-     OSH_PLUGIN_TMUX_AUTOATTACH_BEHAVIOR="exit"
      plugins+=(tmux-autoattach)
  fi
 
