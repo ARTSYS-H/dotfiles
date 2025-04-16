@@ -69,7 +69,7 @@ OSH_THEME="ht"
 # OMB_DEFAULT_ALIASES="check"
 
 # Would you like to use another custom folder than $OSH/custom?
-# OSH_CUSTOM=/path/to/new-custom-folder
+OSH_CUSTOM="/mnt/88bd78cb-8527-431c-b2cc-41d09d2eaa80/artsys/dotfiles/oh-my-bash/custom"
 
 # To disable the uses of "sudo" by oh-my-bash, please set "false" to
 # this variable.  The default behavior for the empty value is "true".
