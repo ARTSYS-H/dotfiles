@@ -98,6 +98,7 @@ aliases=(
   general
   ls
   misc
+  package-manager
 )
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-bash/plugins/*)
@@ -105,7 +106,6 @@ aliases=(
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
   bashmarks
   colored-man-pages
 )
