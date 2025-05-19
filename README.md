@@ -19,13 +19,13 @@ Here's an overview of the directory structure:
 
 ```lua
 dotfiles/
-├── .bashrc
-├── .bash_aliases
-├── .config/
-│   └── helix/
-│       ├── config.toml
-│       └── languages.toml
-├── .oh-my-bash/
+├── bash_config/
+├── tmux/
+│   └── .tmux.conf
+├── helix/
+│   ├── config.toml
+│   └── languages.toml
+├── oh-my-bash/
 │   └── custom/
 └── README.md  <-- You are here!
 ```
@@ -33,16 +33,6 @@ dotfiles/
 ## 🚀 Installation
 
 To set up my environment on a new machine, I can clone this repository and run the following:
-
-### Automatic Installation
-
-```bash
-git clone https://github.com/yourusername/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-./install.sh
-```
-
-> Note: The `install.sh` script backs up existing configuration files before replacing them with my dotfiles.
 
 ### Manual Installation
 
@@ -60,9 +50,10 @@ cp -r .config/nvim ~/.config/
 
 These dotfiles assume certain programs are installed. Here's a list of key tools:
 
-- `Git`
+- [Git](https://git-scm.com/)
 - [Oh My Bash](https://github.com/ohmybash/oh-my-bash)
 - [Helix](https://github.com/helix-editor/helix)
+- [tmux](https://github.com/tmux/tmux)
 
 ## 📋 Customization
 
