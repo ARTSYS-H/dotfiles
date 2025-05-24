@@ -1,0 +1,9 @@
+[general]
+import = ["~/.config/alacritty/themes/lugh_evolve.toml"]
+[env]
+TERM = "xterm-256color"
+[window]
+decorations = "None"
+dynamic_padding = true
+[cursor]
+style = { shape = "Block", blinking = "Never" }

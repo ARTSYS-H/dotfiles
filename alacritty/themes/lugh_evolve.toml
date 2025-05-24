@@ -1,0 +1,29 @@
+# Lugh_evolve for Alacritty
+# -------------------
+# Theme Author: Lugh <lhflyextra300@gmail.com>
+# License:  	MIT License
+# Upstream: 	
+
+[colors.primary]
+background = '#020202'
+foreground = '#cdcdcd'
+
+[colors.normal]
+black = '#282930'
+red = '#ba5f60'
+green = '#7894ab'
+yellow = '#e5a76f'
+blue = '#9bbdb8'
+magenta = '#b9a3ba'
+cyan = '#be8c8c'
+white = '#cdcdcd'
+
+[colors.bright]
+black = '#646477'
+red = '#ba5f60'
+green = '#7894ab'
+yellow = '#e5a76f'
+blue = '#9bbdb8'
+magenta = '#b9a3ba'
+cyan = '#be8c8c'
+white = '#cdcdcd'
