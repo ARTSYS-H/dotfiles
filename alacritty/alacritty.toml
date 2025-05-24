@@ -7,3 +7,5 @@ decorations = "None"
 dynamic_padding = true
 [cursor]
 style = { shape = "Block", blinking = "Never" }
+[mouse]
+hide_when_typing = true
