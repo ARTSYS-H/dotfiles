@@ -1,6 +1,6 @@
 gui:
   authorColors:
-    "*": "#f3be7c"
+    "Lugh": "#f3be7c"
   theme:
     diffLineColor:
       - "#7fa563"
