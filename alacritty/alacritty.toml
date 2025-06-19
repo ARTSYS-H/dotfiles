@@ -5,6 +5,9 @@ TERM = "xterm-256color"
 [window]
 decorations = "None"
 dynamic_padding = true
+[font]
+normal = { family = "Inconsolata Nerd Font", style="Regular" }
+size = 13
 [cursor]
 style = { shape = "Block", blinking = "Never" }
 [mouse]
