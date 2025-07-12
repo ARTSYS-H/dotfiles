@@ -12,3 +12,7 @@ size = 13.25
 style = { shape = "Block", blinking = "Never" }
 [mouse]
 hide_when_typing = true
+[keyboard]
+bindings = [
+  { key = "Q", mods = "Control", action = "Quit" },
+]
