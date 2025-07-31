@@ -220,10 +220,16 @@ bindsym $mod+Shift+g gaps inner all toggle 13px
 smart_gaps off
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+# bindsym $mod+Return exec i3-sensible-terminal
+
+# start Alacritty terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+Q kill
+
+# Lock Session
+bindsym $mod+u exec loginctl lock-session
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
