@@ -259,7 +259,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # A more modern dmenu replacement is rofi:
 bindsym $mod+d exec "rofi -modi drun,ssh -show drun"
-bindsym $mod+a exec "rofi -modi window -show window"
+bindsym $mod+Tab exec "rofi -modi window -show window"
 bindsym $mod+p exec "rofi -modi 'power-menu:~/.config/rofi/rofi-power-menu' -show power-menu"
 
 #############################################
