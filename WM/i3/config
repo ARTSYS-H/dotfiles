@@ -200,6 +200,12 @@ bindsym $mod+s layout stacking
 bindsym $mod+z layout tabbed
 bindsym $mod+e layout toggle split
 
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+x move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+x scratchpad show
+
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
