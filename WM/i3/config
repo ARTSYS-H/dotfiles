@@ -33,7 +33,7 @@
 set $mod Mod4
 
 # Background (Auto set with feh and create blur version for lock screen)
-set $background "/usr/share/backgrounds/Province_of_the_south_of_france_by_orbitelambda.jpg"
+set $background "$HOME/Images/Wallpapers/forest_stairs.jpg"
 
 #############################################
 ##                                         ##
