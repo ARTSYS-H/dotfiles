@@ -246,9 +246,6 @@ bindsym $mod+Return exec alacritty
 # kill focused window
 bindsym $mod+Shift+Q kill
 
-# Lock Session
-bindsym $mod+u exec loginctl lock-session
-
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -325,6 +322,29 @@ mode "Resize" {
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
 }
+
+#############################################
+##                                         ##
+##              SYSTEM MODE                ##
+##                                         ##
+#############################################
+
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id loginctl lock-session, mode "default"
+    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym s exec --no-startup-id systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id systemctl hibernate, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id systemctl poweroff, mode "default"
+
+    # back to normal: Enter or Escape or $mod+Shift+p
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym $mod+Shift+p mode "default"
+}
+
+bindsym $mod+Shift+p mode "$mode_system"
 
 #############################################
 ##                                         ##
