@@ -23,11 +23,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-#############################################
-##                                         ##
-##            GLOBAL VARIABLES             ##
-##                                         ##
-#############################################
+
+#<------------GLOBAL VARIABLES------------>
 
 # Modkey
 set $mod Mod4
@@ -35,11 +32,7 @@ set $mod Mod4
 # Background (Auto set with feh and create blur version for lock screen)
 set $background "$HOME/Images/Wallpapers/forest_stairs.jpg"
 
-#############################################
-##                                         ##
-##       INITIAL START CONFIGURATION       ##
-##                                         ##
-#############################################
+#<-------INITIAL START CONFIGURATION------->
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -70,11 +63,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork --image /
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-#############################################
-##                                         ##
-##      THEME & COLORS CONFIGURATION       ##
-##                                         ##
-#############################################
+#<------THEME & COLORS CONFIGURATION------>
 
 # Display Wallpaper
 exec_always feh --bg-fill $background
@@ -102,12 +91,7 @@ client.urgent           $u-bgcolor      $u-bgcolor      $text           $u-bgcol
 default_border none
 for_window [all] title_window_icon padding 6
 
-
-#############################################
-##                                         ##
-##               WORKSPACES                ##
-##                                         ##
-#############################################
+#<---------------WORKSPACES--------------->
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -146,11 +130,7 @@ bindsym $mod+Shift+8 move container to workspace number $ws8; workspace number $
 bindsym $mod+Shift+ccedilla move container to workspace number $ws9; workspace number $ws9
 bindsym $mod+Shift+agrave move container to workspace number $ws10; workspace number $ws10
 
-#############################################
-##                                         ##
-##               NAVIGATION                ##
-##                                         ##
-#############################################
+#<---------------NAVIGATION--------------->
 
 # Focus follows mouse
 focus_follows_mouse no
@@ -218,11 +198,7 @@ bindsym $mod+q focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-#############################################
-##                                         ##
-##               SHORTCUTS                 ##
-##                                         ##
-#############################################
+#<---------------SHORTCUTS--------------->
 
 # Polybar
 bindsym $mod+i exec "polybar-msg cmd toggle"
@@ -253,11 +229,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
-#############################################
-##                                         ##
-##               LAUNCHER                  ##
-##                                         ##
-#############################################
+#<---------------LAUNCHER--------------->
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
@@ -270,11 +242,7 @@ bindsym $mod+d exec "rofi -modi drun,ssh -show drun"
 bindsym $mod+Tab exec "rofi -modi window -show window"
 bindsym $mod+p exec "rofi -modi 'power-menu:~/.config/rofi/rofi-power-menu' -show power-menu"
 
-#############################################
-##                                         ##
-##            AUDIO CONTROLS               ##
-##                                         ##
-#############################################
+#<------------AUDIO CONTROLS------------>
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -290,11 +258,7 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
-#############################################
-##                                         ##
-##              RESIZE MODE                ##
-##                                         ##
-#############################################
+#<--------------RESIZE MODE-------------->
 
 bindsym $mod+r mode "Resize"
 
@@ -323,11 +287,7 @@ mode "Resize" {
         bindsym $mod+r mode "default"
 }
 
-#############################################
-##                                         ##
-##              SYSTEM MODE                ##
-##                                         ##
-#############################################
+#<--------------SYSTEM MODE-------------->
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
@@ -346,11 +306,7 @@ mode "$mode_system" {
 
 bindsym $mod+Shift+p mode "$mode_system"
 
-#############################################
-##                                         ##
-##              STATUS BARS                ##
-##                                         ##
-#############################################
+#<--------------STATUS BARS-------------->
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
