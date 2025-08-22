@@ -204,7 +204,7 @@ bindsym $mod+q focus parent
 bindsym $mod+i exec "polybar-msg cmd toggle"
 
 # Changing border style
-bindsym $mod+t [all] border normal 0
+bindsym $mod+t [all] border normal 3
 bindsym $mod+b [all] border pixel 3
 bindsym $mod+Shift+b [all] border none
 
