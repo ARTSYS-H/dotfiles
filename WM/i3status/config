@@ -69,7 +69,7 @@ battery all {
 }
 
 tztime local {
-        format = "%Y-%m-%d %H:%M"
+        format = "%d %b %H:%M "
 }
 
 tztime utc {
