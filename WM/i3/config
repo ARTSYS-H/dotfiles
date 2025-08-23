@@ -90,6 +90,7 @@ client.urgent           $u-bgcolor      $u-bgcolor      $text           $u-bgcol
 # Default border style for new windows
 default_border none
 for_window [all] title_window_icon padding 6
+smart_gaps off
 
 #<---------------WORKSPACES--------------->
 
@@ -211,7 +212,6 @@ bindsym $mod+Shift+b [all] border none
 # Gaps
 bindsym $mod+g gaps inner current toggle 13px
 bindsym $mod+Shift+g gaps inner all toggle 13px
-smart_gaps off
 
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
