@@ -88,7 +88,9 @@ client.focused_inactive $in-bgcolor     $in-bgcolor     $in-text        $in-bgco
 client.urgent           $u-bgcolor      $u-bgcolor      $text           $u-bgcolor 
 
 # Default border style for new windows
-default_border none
+default_border pixel 3
+# BUG: `default_border` don't work on all window, seems to be fix in latest version
+for_window [all] border pixel 3
 for_window [all] title_window_icon padding 6
 smart_gaps off
 
