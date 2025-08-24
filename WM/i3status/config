@@ -40,36 +40,36 @@ order += "tztime local"
 # order += "memory"
 
 volume master {
-       format = "  %volume"
-       format_muted = "  muted (%volume)"
+       format = "   %volume "
+       format_muted = "   muted (%volume) "
        device = "default"
        mixer = "Master"
        mixer_idx = 0
 }
 
 wireless _first_ {
-        format_up = "󰖩  (%quality at %essid) %ip"
-        format_down = "󰖪  down"
+        format_up = " 󰖩  (%quality at %essid) %ip "
+        format_down = " 󰖪  down "
 }
 
 ethernet _first_ {
-        format_up = "󰒍  %ip (%speed)"
-        format_down = "󰒎  down"
+        format_up = " 󰒍  %ip (%speed) "
+        format_down = " 󰒎  down "
 }
 
 battery all {
-        format = "%status %percentage (%remaining)"
-        format_down = "󱉝 "
-        status_chr = "󰂅 "
-        status_bat = "󰁹 "
-        status_unk = "󰂑 "
-        status_full = "󱟢 "
+        format = " %status %percentage (%remaining) "
+        format_down = " 󱉝  "
+        status_chr = " 󰂅  "
+        status_bat = " 󰁹  "
+        status_unk = " 󰂑  "
+        status_full = " 󱟢  "
         low_threshold = 15
         threshold_type = "percentage"
 }
 
 tztime local {
-        format = "%d %b %H:%M "
+        format = " %d %b %H:%M "
 }
 
 tztime utc {

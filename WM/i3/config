@@ -70,7 +70,7 @@ exec_always feh --bg-fill $background
 
 # Color shemes for windows 
 set $fs-bgcolor   #F0C674
-set $focused-ws   #EDA826
+set $focused-ws   #F0C674
 set $fs-indicator #EDA826
 set $bgcolor      #282A2E
 set $bar-color    #282A2E
@@ -323,7 +323,7 @@ bar {
                 statusline $text
                 separator $indicator
                 #                       border          background      text
-                focused_workspace       $focused-ws     $focused-ws     $text
+                focused_workspace       $focused-ws     $focused-ws     $bgcolor
                 inactive_workspace      $inactive-ws    $inactive-ws    $text
                 urgent_workspace        $u-bgcolor      $u-bgcolor      $text
         }
