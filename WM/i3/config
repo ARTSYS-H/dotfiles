@@ -203,8 +203,8 @@ bindsym $mod+q focus parent
 
 #<---------------SHORTCUTS--------------->
 
-# Polybar
-bindsym $mod+i exec "polybar-msg cmd toggle"
+# i3bar and Polybar toggle
+bindsym $mod+i bar mode toggle; exec "polybar-msg cmd toggle"
 
 # Changing border style
 bindsym $mod+t [all] border normal 3
