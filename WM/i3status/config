@@ -50,13 +50,13 @@ volume master {
 
 wireless _first_ {
         # format_up = " 󰖩  (%quality at %essid) %ip "
-        format_up = " 󰖩  %quality %essid "
-        format_down = " 󰖪  down "
+        format_up = " 󰖩 %quality %essid "
+        format_down = " 󰖪  "
 }
 
 ethernet _first_ {
         format_up = " 󰒍  %ip (%speed) "
-        format_down = " 󰒎  down "
+        format_down = " 󰒎  "
 }
 
 battery all {
