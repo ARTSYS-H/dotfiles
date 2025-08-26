@@ -316,6 +316,7 @@ bar {
         i3bar_command ~/.config/polybar/launch.sh
         # i3bar_command i3bar --transparency
         # tray_output none
+        # position top
         # status_command i3status
         tray_padding 6
         colors {

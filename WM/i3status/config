@@ -21,6 +21,7 @@
 # If the above line is not correctly displayed, fix your editor first!
 
 general {
+        output_format = "i3bar"
         colors = true
         color_good = "#72B51B"
         color_degraded = "#F0C674"
@@ -30,7 +31,7 @@ general {
 
 order += "wireless _first_"
 order += "ethernet _first_"
-order += "battery all"
+# order += "battery all"
 order += "volume master"
 order += "tztime local"
 # order += "tztime utc"
@@ -48,7 +49,8 @@ volume master {
 }
 
 wireless _first_ {
-        format_up = " 󰖩  (%quality at %essid) %ip "
+        # format_up = " 󰖩  (%quality at %essid) %ip "
+        format_up = " 󰖩  %quality %essid "
         format_down = " 󰖪  down "
 }
 
