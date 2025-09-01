@@ -240,8 +240,8 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -b -i -p "drun:" -nb "$bgcolor" -nf "$text" -sb "$fs-bgcolor" -sf "$bgcolor" ' 
 
 # A more modern dmenu replacement is rofi:
-bindsym $mod+d exec "rofi -modi drun -show drun"
-bindsym $mod+Tab exec "rofi -modi window -show window"
+bindsym $mod+d exec "rofi -modi drun -show drun -show-icons"
+bindsym $mod+Tab exec "rofi -modi window -show window -show-icons"
 bindsym $mod+p exec "rofi -modi 'power-menu:~/.config/rofi/rofi-power-menu' -show power-menu"
 
 #<------------AUDIO CONTROLS------------>
