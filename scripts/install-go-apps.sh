@@ -8,11 +8,10 @@ fi
 apps=(
   "github.com/go-delve/delve/cmd/dlv@latest"
   "github.com/nametake/golangci-lint-langserver@latest"
-  "github.com/golangci/golangci-lint/cmd/golangci-lint@latest"
+  "github.com/golangci/golangci-lint/v2/cmd/golangci-lint@latest"
   "golang.org/x/tools/cmd/goimports@latest"
   "golang.org/x/tools/gopls@latest"
   "github.com/jesseduffield/lazygit@latest"
-  "github.com/charmbracelet/glow@latest"
 )
 
 function install_ask {
