@@ -4,6 +4,7 @@ theme = "lugh_evolve"
 mouse = false
 true-color = true
 color-modes = true
+continue-comments = false
 # bufferline = "multiple"
 middle-click-paste = false
 # Minimum severity to show a diagnostic after the end of a line:
