@@ -8,7 +8,7 @@ continue-comments = false
 # bufferline = "multiple"
 middle-click-paste = false
 # Minimum severity to show a diagnostic after the end of a line:
-end-of-line-diagnostics = "hint"
+end-of-line-diagnostics = "error"
 
 [editor.soft-wrap]
 enable = true
@@ -40,6 +40,6 @@ min-width = 1
 [editor.inline-diagnostics]
 # Minimum severity to show a diagnostic on the primary cursor's line.
 # Note that `cursor-line` diagnostics are hidden in insert mode.
-cursor-line = "warning"
+cursor-line = "hint"
 # Minimum severity to show a diagnostic on other lines:
 # other-lines = "error"
