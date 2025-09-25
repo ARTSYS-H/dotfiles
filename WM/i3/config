@@ -207,13 +207,11 @@ bindsym $mod+Shift+a focus child
 bindsym $mod+i bar mode toggle; exec "polybar-msg cmd toggle"
 
 # Changing border style
-bindsym $mod+t [all] border normal 3
-bindsym $mod+b [all] border pixel 3
+bindsym $mod+b [all] border toggle 3
 bindsym $mod+Shift+b [all] border none
 
 # Gaps
 bindsym $mod+g gaps inner current toggle 13px
-bindsym $mod+Shift+g gaps inner all toggle 13px
 
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
