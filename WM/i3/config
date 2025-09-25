@@ -88,9 +88,10 @@ client.focused_inactive $in-bgcolor     $in-bgcolor     $in-text        $in-bgco
 client.urgent           $u-bgcolor      $u-bgcolor      $text           $u-bgcolor 
 
 # Default border style for new windows
-default_border pixel 3
+default_border pixel 2
+default_floating_border pixel 2
 # BUG: `default_border` don't work on all window, seems to be fix in latest version
-for_window [all] border pixel 3
+for_window [all] border pixel 2
 for_window [all] title_window_icon padding 6
 smart_gaps off
 
@@ -207,7 +208,7 @@ bindsym $mod+Shift+a focus child
 bindsym $mod+i bar mode toggle
 
 # Changing border style
-bindsym $mod+b [all] border toggle 3
+bindsym $mod+b [all] border toggle 2
 bindsym $mod+Shift+b [all] border none
 
 # Gaps
