@@ -2,6 +2,7 @@ theme = "lugh_evolve"
 
 [editor]
 mouse = false
+line-number = "relative"
 true-color = true
 color-modes = true
 continue-comments = false
