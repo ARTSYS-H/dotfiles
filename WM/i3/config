@@ -289,7 +289,7 @@ mode "Resize" {
 
 #<--------------SYSTEM MODE-------------->
 
-set $mode_system "System"
+set $mode_system "System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown"
 
 mode $mode_system {
     bindsym l exec --no-startup-id loginctl lock-session, mode "default"
