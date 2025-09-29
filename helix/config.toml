@@ -13,9 +13,6 @@ end-of-line-diagnostics = "error"
 
 [editor.soft-wrap]
 enable = true
-max-wrap = 25
-max-indent-retain = 0
-wrap-indicator = ""
 
 [editor.indent-guides]
 render = true
