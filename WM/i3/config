@@ -69,17 +69,17 @@ exec --no-startup-id nm-applet
 exec_always feh --bg-fill $background
 
 # Color shemes for windows 
-set_from_resource $fs-bgcolor i3wm.colorPrimary #F0C674
-set_from_resource $focused-ws i3wm.colorPrimary #F0C674
-set_from_resource $fs-indicator i3wm.colorPrimaryAlt #EDA826
-set_from_resource $bgcolor i3wm.colorBackground #282A2E
-set_from_resource $bar-color i3wm.colorBackground #282A2E
-set_from_resource $in-bgcolor i3wm.colorBackgroundAlt #373B41
-set_from_resource $inactive-ws i3wm.colorBackgroundAlt #373B41
-set_from_resource $text i3wm.colorText #C5C8C6
-set_from_resource $in-text i3wm.colorTextAlt #707880
-set_from_resource $indicator i3wm.colorTextAlt #707880
-set_from_resource $u-bgcolor i3wm.colorUrgent #A54242
+set $fs-bgcolor   #F0C674
+set $focused-ws   #F0C674
+set $fs-indicator #EDA826
+set $bgcolor      #282A2E
+set $bar-color    #282A2E
+set $in-bgcolor   #373B41
+set $inactive-ws  #373B41
+set $text         #C5C8C6
+set $in-text      #707880
+set $indicator    #707880
+set $u-bgcolor    #A54242
 
 #                       border          background      text            indicator (a line which shows where the next window will be placed)     
 client.focused          $fs-bgcolor     $fs-bgcolor     $bgcolor        $fs-indicator
