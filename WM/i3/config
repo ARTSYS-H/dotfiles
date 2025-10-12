@@ -69,8 +69,8 @@ exec --no-startup-id nm-applet
 exec_always feh --bg-fill $background
 
 # Color shemes for windows 
-set $fs-bgcolor   #F0C674
-set $focused-ws   #F0C674
+set $fs-bgcolor   #D4B68C
+set $focused-ws   #D4B68C
 set $fs-indicator #EDA826
 set $bgcolor      #282A2E
 set $bar-color    #282A2E
