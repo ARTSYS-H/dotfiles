@@ -71,7 +71,6 @@ exec_always feh --bg-fill $background
 # Color shemes for windows 
 set $fs-bgcolor   #D4B68C
 set $focused-ws   #D4B68C
-set $fs-indicator #EDA826
 set $bgcolor      #282A2E
 set $bar-color    #282A2E
 set $in-bgcolor   #373B41
@@ -82,7 +81,7 @@ set $indicator    #707880
 set $u-bgcolor    #A54242
 
 #                       border          background      text            indicator (a line which shows where the next window will be placed)     
-client.focused          $fs-bgcolor     $fs-bgcolor     $bgcolor        $fs-indicator
+client.focused          $fs-bgcolor     $fs-bgcolor     $bgcolor        $fs-bgcolor
 client.unfocused        $in-bgcolor     $in-bgcolor     $in-text        $in-bgcolor
 client.focused_inactive $in-bgcolor     $in-bgcolor     $in-text        $in-bgcolor
 client.urgent           $u-bgcolor      $u-bgcolor      $text           $u-bgcolor 
