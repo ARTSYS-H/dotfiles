@@ -92,6 +92,10 @@ default_floating_border pixel 2
 # BUG: `default_border` don't work on all window, seems to be fix in latest version
 for_window [all] border pixel 2
 for_window [all] title_window_icon padding 6
+# Hinding borders adjacent to the screen edges with only one window visible
+hide_edge_borders smart
+# Enabling “Smart Gaps” means no gaps will be shown when there is
+# precisely one window or split container on the workspace.
 smart_gaps off
 
 #<---------------WORKSPACES--------------->
