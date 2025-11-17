@@ -37,6 +37,7 @@ function install_ask {
 }
 
 function install {
+  echo "=== $1"
   go install "$1"
 }
 
