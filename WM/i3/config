@@ -212,7 +212,6 @@ bindsym $mod+i bar mode toggle
 
 # Changing border style
 bindsym $mod+b [all] border toggle 2
-bindsym $mod+Shift+b [all] border none
 
 # Gaps
 bindsym $mod+g gaps inner current toggle 13px
