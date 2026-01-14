@@ -30,7 +30,7 @@
 set $mod Mod4
 
 # Background (Auto set with feh and create blur version for lock screen)
-set $background "$HOME/Images/Wallpapers/wallhaven-3lrlod_3440x1440.png"
+set $background "$HOME/Images/Wallpapers/wallhaven-qrzvjd_2560x1440.png"
 
 #<-------INITIAL START CONFIGURATION------->
 
