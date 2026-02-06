@@ -105,7 +105,7 @@ aliases=(
 plugins=(
   bashmarks
   colored-man-pages
-  superfile
+  yazi
 )
 
 # Which plugins would you like to conditionally load? (plugins can be found in ~/.oh-my-bash/plugins/*)
