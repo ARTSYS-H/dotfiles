@@ -1,4 +1,4 @@
-theme = "lugh_evolve"
+theme = "ashen-dev"
 
 [editor]
 mouse = false
@@ -10,6 +10,10 @@ continue-comments = false
 middle-click-paste = false
 # Minimum severity to show a diagnostic after the end of a line:
 end-of-line-diagnostics = "error"
+# Tweaks for the Ashen theme
+cursorline = true
+# certain diagnostics are styled as curl
+undercurl = true
 
 [editor.soft-wrap]
 enable = true
