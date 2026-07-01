@@ -14,6 +14,8 @@ end-of-line-diagnostics = "error"
 cursorline = true
 # certain diagnostics are styled as curl
 undercurl = true
+# Rulers positions
+rulers = [80]
 
 [editor.soft-wrap]
 enable = true
@@ -25,7 +27,8 @@ skip-levels = 1
 
 [editor.statusline]
 left = ["mode", "spacer", "spinner", "file-name", "read-only-indicator", "file-modification-indicator"]
-right = ["diagnostics", "register", "file-encoding", "file-type", "spacer", "version-control"]
+center = ["register"]
+right = ["diagnostics", "position", "file-encoding", "file-type", "spacer", "version-control"]
 diagnostics = ["hint", "info", "warning", "error"]
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
