@@ -15,7 +15,7 @@ cursorline = true
 # certain diagnostics are styled as curl
 undercurl = true
 # Rulers positions
-rulers = [80]
+rulers = [80,100]
 
 [editor.soft-wrap]
 enable = true
