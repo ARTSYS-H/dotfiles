@@ -16,6 +16,8 @@ cursorline = true
 undercurl = true
 # Rulers positions
 rulers = [80,100]
+# Whether to display info boxes
+auto-info = false
 
 [editor.soft-wrap]
 enable = true
