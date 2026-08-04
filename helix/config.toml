@@ -6,6 +6,8 @@ line-number = "relative"
 true-color = true
 color-modes = true
 continue-comments = false
+completion-timeout = 5
+completion-trigger-len = 1
 # bufferline = "multiple"
 middle-click-paste = false
 # Minimum severity to show a diagnostic after the end of a line:
