@@ -29,8 +29,8 @@ general {
         interval = 5
 }
 
-order += "wireless _first_"
-order += "ethernet _first_"
+# order += "wireless _first_"
+# order += "ethernet _first_"
 # order += "battery all"
 order += "volume master"
 order += "tztime local"
@@ -41,8 +41,8 @@ order += "tztime local"
 # order += "memory"
 
 volume master {
-       format = "   %volume "
-       format_muted = "   (%volume) "
+       format = "   %devicename: %volume "
+       format_muted = "   %devicename: %volume "
        device = "default"
        mixer = "Master"
        mixer_idx = 0
