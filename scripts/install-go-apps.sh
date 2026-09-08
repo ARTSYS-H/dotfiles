@@ -12,7 +12,7 @@ apps=(
   "golang.org/x/tools/cmd/goimports@latest"
   "golang.org/x/tools/gopls@latest"
   "github.com/jesseduffield/lazygit@latest"
-  "github.com/schollz/croc/v10@latest"
+  "github.com/schollz/croc/v11@latest"
 )
 
 function install_ask {
